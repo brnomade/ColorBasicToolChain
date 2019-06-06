@@ -1,0 +1,2 @@
+python C:\CODING\NPPSCRIPTS\build_and_run_via_xroar.py $(FULL_CURRENT_PATH) 
+python C:\CODING\NPPSCRIPTS\copy_file_into_dsk.py $(FULL_CURRENT_PATH) "C:\CODING\TRSCOLOR\Hardware\Wordpak2plus\MyCode\wp2p.dsk" $(FILE_NAME)
