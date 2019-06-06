@@ -69,4 +69,12 @@ Inside the [A_FOLDER_LOCATION] place the files available on this repository. Mak
 Pay attention to folder names with spaces. Use "" to define them.
 
 
+The scripts will run the basic file in XROAR and copy the file into a dsk. 
+
+ASSUMPTIONS:
+
+The dsk file is located in the same folder as the source file. 
+
+The dsk file name is the same as the source file namme.
+
 
