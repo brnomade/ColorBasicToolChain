@@ -49,6 +49,8 @@ test.dsk - this is the dsk file where the source file needs to be copied to
 TARGET.BAS - this is the name of the file in the dsk. Upper case is needed as ColorBasic can't handle lower case names well.
 !!! The comma is critical. Do not remove it.
 
+The scripts configured on this toolchain use OPTION 1 described above.
+
 To automatically execute the basic file in XROAR from Notepad, use the F6 (Execute) command.
 
 On the command description, use the following:
