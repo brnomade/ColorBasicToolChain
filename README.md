@@ -23,6 +23,7 @@ E) toolshed decb -l -0 -b -t.
 F) toolshed decb -l -3 -a.
 
 OPTION 1 - using Mame imgtool
+
 imgtool put coco_jvc_rsdos test.dsk source.bas TARGET.BAS --ftype=basic --filter=cocobas 
 
 test.dsk - this is the dsk file where the source file needs to be copied to
@@ -30,6 +31,7 @@ source.bas - this is the source file to be copied to the dsk. any name or extens
 TARGET.BAS - this is the name of the file in the dsk. Upper case is needed as ColorBasic can't handle lower case names well.
 
 OPTION 2 - using Toolshed decb
+
 decb copy -l -0 -b -t source.bas test.dsk,TARGET.BAS 
 
 This option will place the file in the dsk as a binary basic file
@@ -40,6 +42,7 @@ TARGET.BAS - this is the name of the file in the dsk. Upper case is needed as Co
 !!! The comma is critical. Do not remove it.
 
 OPTION 3 - using Toolshed decb
+
 decb copy -l -3 -a -t source.bas test.dsk,TARGET.BAS
 
 This option will place the file in the dsk as a ASC file
